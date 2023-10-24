@@ -40,7 +40,7 @@ while ($row = mysqli_fetch_array($result)) {
     <main>
         <section class="dash-main">
             <h1>Data Penumpang</h1>
-            <h3>Waktu Menunjukan:<?php date_default_timezone_set('Asia/Makassar');echo date("l Y/m/D H:i:s");?></h3>
+            <h3>Waktu Menunjukan:<?php date_default_timezone_set('Asia/Makassar');echo date("l Y/m/d H:i:s");?></h3>
             <hr><br>
             <div class="leading-btn">
                 <a href="booking.html"> <button class="add-btn">Tambah</button></a>
